@@ -1,12 +1,12 @@
-# Root_imaging_M2project
+Root_imaging_M2project
 
-## Description
+Description
 
 This project was carried out as an exercise in the framework of the master 2 Data Science for Agronomy and Agro-food. 
 From a database of images of rhizoboxes we wanted to extract the length of the roots. For this purpose we tested different methods and models. 
 The summary of the project and the approach is available in the document "roots_project_presentation.pdf". 
 
-## Datasets and results
+Datasets and results
 The data and results are available on the drive at the following address : https://drive.google.com/drive/folders/1plpLPGGV3T9rnVbaQmOP5xwqIPj7qpwK?usp=sharing
 
 The architecture of this repro github is the same as the Google Drive. To use our data with our codes directly: 
@@ -16,7 +16,7 @@ The architecture of this repro github is the same as the Google Drive. To use ou
 
 The initial unsorted dataset is not fully available for storage reasons (00.Datasets/Sample_not_sorted/). All photos are available in the folder (00.Datasets/Initial/) they have just been sorted. 
 
-## Links, codes and articles related to the project : 
+Links, codes and articles related to the project : 
 
 1.Yang, G., Pennington, J., Rao, V., Sohl-Dickstein, J. & Schoenholz, S. S. A Mean Field Theory of Batch Normalization. (2019). 
 2.Yu, E. M., Iglesias, J. E., Dalca, A. V. & Sabuncu, M. R. An Auto-Encoder Strategy for Adaptive Image Segmentation. arXiv:2004.13903 [cs, eess] (2020). 
