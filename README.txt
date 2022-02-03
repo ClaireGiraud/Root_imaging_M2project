@@ -16,7 +16,15 @@ The architecture of this repro github is the same as the Google Drive. To use ou
 
 The initial unsorted dataset is not fully available for storage reasons (00.Datasets/Sample_not_sorted/). All photos are available in the folder (00.Datasets/Initial/) they have just been sorted. 
 
-Links, codes and articles related to the project : 
+For the structuration of the dataset part you will need to download the YOLO Algorithme :  https://github.com/Neerajj9/Text-Detection-using-Yolo-Algorithm-in-keras-tensorflow and put it at the root of the project.
+
+In order to get OCR working : 
+1. Download and install Tesseract OCR on your computer https://sourceforge.net/projects/tesseract-ocr/
+2. Specify the path of the exe in the py file 'automatic_dataset_ordering_method2'
+3. pip install pytesseract
+4. import pytesseract
+
+Links, codes and articles related to the project :
 
 1.Yang, G., Pennington, J., Rao, V., Sohl-Dickstein, J. & Schoenholz, S. S. A Mean Field Theory of Batch Normalization. (2019). 
 2.Yu, E. M., Iglesias, J. E., Dalca, A. V. & Sabuncu, M. R. An Auto-Encoder Strategy for Adaptive Image Segmentation. arXiv:2004.13903 [cs, eess] (2020). 
