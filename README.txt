@@ -1,13 +1,12 @@
 Root_imaging_M2project
 
 Description
-
-This project was carried out as an exercise in the framework of the master 2 Data Science for Agronomy and Agro-food. 
-From a database of images of rhizoboxes we wanted to extract the length of the roots. For this purpose we tested different methods and models. 
+This project was carried out as an exercise in the framework of the Master 2 Data Science for Agronomy and Agro-food. 
+From a database of images of rhizoboxes, we wanted to automatically extract the length of the roots. For this purpose we tested different methods and models. 
 The summary of the project and the approach is available in the document "roots_project_presentation.pdf". 
 
 Datasets and results
-The data and results are available on the drive at the following address : https://drive.google.com/drive/folders/1plpLPGGV3T9rnVbaQmOP5xwqIPj7qpwK?usp=sharing
+The data and results are available on a Google drive at the following address : https://drive.google.com/drive/folders/1plpLPGGV3T9rnVbaQmOP5xwqIPj7qpwK?usp=sharing
 
 The architecture of this repro github is the same as the Google Drive. To use our data with our codes directly: 
 - Download the google drive folder 
@@ -16,11 +15,11 @@ The architecture of this repro github is the same as the Google Drive. To use ou
 
 The initial unsorted dataset is not fully available for storage reasons (00.Datasets/Sample_not_sorted/). All photos are available in the folder (00.Datasets/Initial/) they have just been sorted. 
 
-For the structuration of the dataset part you will need to download the YOLO Algorithme :  https://github.com/Neerajj9/Text-Detection-using-Yolo-Algorithm-in-keras-tensorflow and put it at the root of the project.
+For the structuration of the dataset part, you will need to download the YOLO Algorithm :  https://github.com/Neerajj9/Text-Detection-using-Yolo-Algorithm-in-keras-tensorflow and put it at the root of the project.
 
 In order to get OCR working : 
 1. Download and install Tesseract OCR on your computer https://sourceforge.net/projects/tesseract-ocr/
-2. Specify the path of the exe in the py file 'automatic_dataset_ordering_method2'
+2. Specify the path of the exe in the .py file (for example in : 'automatic_dataset_ordering_method1.py')
 3. pip install pytesseract
 4. import pytesseract
 
